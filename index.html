@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>FocusFlow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🚀 FocusFlow</h1>
+
+  <!-- AI Pet -->
+  <div id="pet">🤖</div>
+
+  <!-- Timer -->
+  <h2 id="timer">25:00</h2>
+  <button onclick="startTimer()">Start</button>
+  <button onclick="resetTimer()">Reset</button>
+
+  <!-- Task Input -->
+  <input id="taskInput" placeholder="Tambah tugas...">
+  <button onclick="addTask()">Tambah</button>
+
+  <!-- Task List -->
+  <ul id="taskList"></ul>
+
+  <!-- XP -->
+  <h3>XP: <span id="xp">0</span></h3>
+
+  <!-- AI Assistant -->
+  <textarea id="aiInput" placeholder="Tanya AI..."></textarea>
+  <button onclick="askAI()">Kirim</button>
+  <p id="aiResponse"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

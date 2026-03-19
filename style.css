@@ -1,0 +1,31 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#pet {
+  font-size: 50px;
+  margin: 10px;
+}
